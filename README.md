@@ -13,6 +13,7 @@ These modules were extracted from a larger production web application. The appli
 | `src/csv.js` | RFC 4180 reader and writer with delimiter detection, row limits and readable error messages. The writer defuses cells that a spreadsheet would run as formulas. |
 | `src/zip.js` | Minimal ZIP writer (deflate, CRC-32). Entry names are restricted to plain file names so an archive cannot write outside its folder. |
 | `src/atom.js` | Atom 1.0 (RFC 4287) feed builder from plain data. Every value is XML-escaped and characters XML 1.0 forbids are removed, so a hostile title cannot break the feed or inject markup. |
+| `src/oauth1.js` | OAuth 1.0a request signing (RFC 5849, HMAC-SHA1) as X's API accepts it: percent-encoding, the sorted signature base string, and the Authorization header. Pure functions over `node:crypto`; tested against the worked example in X's documentation. |
 | `src/prompt-template.js` | Helpers for sharing text prompts: pick the prompt out of a Markdown post (first code block, else the whole text), list its `{{NAME}}` and `[placeholder]` variables (deduplicated, capped, links and checkboxes ignored), fill them in, and build length-checked "open in a chat site" links. |
 | `src/validate.js` | Username, password and numeric-id rules. |
 | `src/netutil.js` | Public-address test for IPv4 and IPv6 (a building block for server-side request forgery protection) and IP parsing into numbers. |

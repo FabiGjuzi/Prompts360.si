@@ -1,7 +1,7 @@
 {
   "name": "web-primitives",
   "version": "0.1.0",
-  "description": "Dependency-free building blocks for web back ends: safe HTML and Markdown rendering, CSV and ZIP, Atom feeds, prompt templates, input validation, cryptography, sessions, a key-value client and rate limiting.",
+  "description": "Dependency-free building blocks for web back ends: safe HTML and Markdown rendering, CSV and ZIP, Atom feeds, OAuth 1.0a signing, prompt templates, input validation, cryptography, sessions, a key-value client and rate limiting.",
   "private": true,
   "type": "module",
   "engines": {
