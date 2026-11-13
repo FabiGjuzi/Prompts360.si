@@ -1,0 +1,13 @@
+{
+  "name": "web-primitives",
+  "version": "0.1.0",
+  "description": "Dependency-free building blocks for web back ends: safe HTML and Markdown rendering, CSV and ZIP, input validation, cryptography, sessions, a key-value client and rate limiting.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.7"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 test/*.test.js"
+  }
+}
